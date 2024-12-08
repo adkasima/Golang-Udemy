@@ -21,8 +21,9 @@ func main() {
 
 	const constant1 string = "Constant 1"
 	fmt.Println(constant1)
-	fmt.Println(constant1)
-	fmt.Println(constant1)
+
+	variable5, variable6 = variable6, variable5
+	fmt.Println(variable5, variable6)
 
 	
 
